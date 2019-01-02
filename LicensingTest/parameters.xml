@@ -1,0 +1,34 @@
+﻿<parameters>
+    
+    
+    <parameter name="webpages:Version" description="Description for webpages:Version" defaultvalue="__WEBPAGES:VERSION__" tags="">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='webpages:Version']/@value" />
+    </parameter>
+  
+    
+    <parameter name="webpages:Enabled" description="Description for webpages:Enabled" defaultvalue="__WEBPAGES:ENABLED__" tags="">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='webpages:Enabled']/@value" />
+    </parameter>
+  
+    
+    <parameter name="ClientValidationEnabled" description="Description for ClientValidationEnabled" defaultvalue="__CLIENTVALIDATIONENABLED__" tags="">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='ClientValidationEnabled']/@value" />
+    </parameter>
+  
+    
+    <parameter name="UnobtrusiveJavaScriptEnabled" description="Description for UnobtrusiveJavaScriptEnabled" defaultvalue="__UNOBTRUSIVEJAVASCRIPTENABLED__" tags="">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='UnobtrusiveJavaScriptEnabled']/@value" />
+    </parameter>
+  
+    
+    <parameter name="Environment" description="Description for Environment" defaultvalue="__ENVIRONMENT__" tags="">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='Environment']/@value" />
+    </parameter>
+  
+    
+    <parameter name="EnvironmentTimeout" description="Description for EnvironmentTimeout" defaultvalue="__ENVIRONMENTTIMEOUT__" tags="">
+    <parameterentry kind="XmlFile" scope="\\Web.config$" match="/configuration/appSettings/add[@key='EnvironmentTimeout']/@value" />
+    </parameter>
+
+    
+</parameters>
